@@ -1,0 +1,6 @@
+RSA vs AES — quick notes (Week 4)
+• RSA (asymmetric): public/private keys; slower; used for small data or to wrap symmetric keys.
+• AES-256 (symmetric): shared key; very fast; used for bulk data.
+• Best practice: RSA encrypts the AES key; AES encrypts the file contents.
+• Performance: AES >> RSA for large files.
+• Use cases: RSA for identity/key exchange; AES for data at rest/in transit.
