@@ -1,0 +1,2 @@
+    Protocol  : TLSv1.3
+    Cipher    : AEAD-CHACHA20-POLY1305-SHA256

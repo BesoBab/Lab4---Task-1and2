@@ -1,0 +1,44 @@
+TLS Report — Task 2 (HTTPS/TLS Inspection)
+Site tested: www.wikipedia.org
+Date: November 4, 2025
+
+------------------------------------------------------------
+TLS Handshake Explanation
+------------------------------------------------------------
+The TLS handshake I captured illustrates how my MacBook established an encrypted session with www.wikipedia.org.
+The process began when my device sent a Client Hello message advertising its supported TLS versions and cipher suites.
+The server replied with a Server Hello, choosing TLS 1.3 and the cipher suite AEAD-CHACHA20-POLY1305-SHA256 to secure communication.
+
+Immediately after, the server transmitted its digital certificate, allowing my browser to verify the server’s authenticity and validity through a trusted Certificate Authority (CA).
+Once validated, both endpoints used ephemeral elliptic-curve Diffie-Hellman (ECDHE) key exchange to derive a unique session key.
+From that moment forward, all data transferred between my system and the server was encrypted and integrity-protected, ensuring that no external party could view or modify the traffic.
+
+------------------------------------------------------------
+Man-in-the-Middle (MITM) Protection Mechanisms
+------------------------------------------------------------
+TLS 1.3 provides multiple built-in defenses against MITM attacks:
+
+1. Authentication – The browser verifies the server’s digital certificate and CA signature. If a certificate is invalid or spoofed, the browser displays a warning and blocks the connection.
+2. Confidentiality – The ECDHE handshake generates new symmetric session keys for each connection, achieving forward secrecy. Even if an attacker later obtained the server’s private key, past sessions remain secure.
+3. Integrity – All encrypted records include authentication tags (via AEAD), ensuring that any tampered packet is immediately detected and discarded.
+
+Together, these steps prevent attackers from intercepting, impersonating, or altering data in transit.
+
+------------------------------------------------------------
+TLS in Website Communication
+------------------------------------------------------------
+In my capture, the Client Hello and Server Hello messages show how the two parties negotiate encryption parameters:
+
+- Protocol: TLS 1.3
+- Cipher Suite: AEAD-CHACHA20-POLY1305-SHA256
+
+After the handshake, the server sent its certificate, completing authentication.
+TLS then derived symmetric keys from the ECDHE exchange, establishing a secure tunnel for HTTPS traffic.
+From this point, every HTTP request and response was encrypted, providing confidentiality, authenticity, and integrity for all communication with the website.
+
+------------------------------------------------------------
+Summary
+------------------------------------------------------------
+This TLS 1.3 handshake demonstrates modern web security in practice.
+By combining strong authentication, forward secrecy, and authenticated encryption, HTTPS ensures that users can safely exchange information without risk of interception or manipulation.
+The specific negotiation — TLS 1.3 / CHACHA20-POLY1305-SHA256 — reflects a high-performance, state-of-the-art configuration widely adopted across secure web services.

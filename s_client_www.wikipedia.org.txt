@@ -1,0 +1,109 @@
+CONNECTED(00000005)
+write W BLOCK
+---
+Certificate chain
+ 0 s:/CN=*.wikipedia.org
+   i:/C=US/O=Let's Encrypt/CN=E7
+-----BEGIN CERTIFICATE-----
+MIIGXzCCBeWgAwIBAgISBema+unpKFyaa4ym/v8mwj+bMAoGCCqGSM49BAMDMDIx
+CzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJF
+NzAeFw0yNTEwMDkyMzAyMDNaFw0yNjAxMDcyMzAyMDJaMBoxGDAWBgNVBAMMDyou
+d2lraXBlZGlhLm9yZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABArHhrGnSEB4
+XUotjg8fL9myj0ir0CJxNoFsGprMlwUzlkYXHXVwcVapWw29T2g4edSb+c3OEd59
+uCtMLgAfvkOjggTxMIIE7TAOBgNVHQ8BAf8EBAMCB4AwHQYDVR0lBBYwFAYIKwYB
+BQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFEDxR31n2TKA
+bGQwpsKXkM6G7kbAMB8GA1UdIwQYMBaAFK5IntyHHUSgb9qi5WB0BHjCnACAMDIG
+CCsGAQUFBwEBBCYwJDAiBggrBgEFBQcwAoYWaHR0cDovL2U3LmkubGVuY3Iub3Jn
+LzCCAu0GA1UdEQSCAuQwggLgghEqLm0ubWVkaWF3aWtpLm9yZ4IRKi5tLndpa2li
+b29rcy5vcmeCECoubS53aWtpZGF0YS5vcmeCESoubS53aWtpbWVkaWEub3JnghAq
+Lm0ud2lraW5ld3Mub3JnghEqLm0ud2lraXBlZGlhLm9yZ4IRKi5tLndpa2lxdW90
+ZS5vcmeCEioubS53aWtpc291cmNlLm9yZ4ITKi5tLndpa2l2ZXJzaXR5Lm9yZ4IS
+Ki5tLndpa2l2b3lhZ2Uub3JnghIqLm0ud2lrdGlvbmFyeS5vcmeCDyoubWVkaWF3
+aWtpLm9yZ4IWKi5wbGFuZXQud2lraW1lZGlhLm9yZ4IPKi53aWtpYm9va3Mub3Jn
+gg4qLndpa2lkYXRhLm9yZ4ITKi53aWtpZnVuY3Rpb25zLm9yZ4IPKi53aWtpbWVk
+aWEub3JnghkqLndpa2ltZWRpYWZvdW5kYXRpb24ub3Jngg4qLndpa2luZXdzLm9y
+Z4IPKi53aWtpcGVkaWEub3Jngg8qLndpa2lxdW90ZS5vcmeCECoud2lraXNvdXJj
+ZS5vcmeCESoud2lraXZlcnNpdHkub3JnghAqLndpa2l2b3lhZ2Uub3JnghAqLndp
+a3Rpb25hcnkub3JnghQqLndtZnVzZXJjb250ZW50Lm9yZ4INbWVkaWF3aWtpLm9y
+Z4IGdy53aWtpgg13aWtpYm9va3Mub3Jnggx3aWtpZGF0YS5vcmeCEXdpa2lmdW5j
+dGlvbnMub3Jngg13aWtpbWVkaWEub3Jnghd3aWtpbWVkaWFmb3VuZGF0aW9uLm9y
+Z4IMd2lraW5ld3Mub3Jngg13aWtpcGVkaWEub3Jngg13aWtpcXVvdGUub3Jngg53
+aWtpc291cmNlLm9yZ4IPd2lraXZlcnNpdHkub3Jngg53aWtpdm95YWdlLm9yZ4IO
+d2lrdGlvbmFyeS5vcmeCEndtZnVzZXJjb250ZW50Lm9yZzATBgNVHSAEDDAKMAgG
+BmeBDAECATAtBgNVHR8EJjAkMCKgIKAehhxodHRwOi8vZTcuYy5sZW5jci5vcmcv
+MjguY3JsMIIBAwYKKwYBBAHWeQIEAgSB9ASB8QDvAHYASZybad4dfOz8Nt7Nh2Sm
+uFuvCoeAGdFVUvvp6ynd+MMAAAGZy2tWawAABAMARzBFAiEAp9U5OsrM9FGAjcvZ
+rXWslvzcw+ljZgOX2R5qWtVHz5YCICohrth5X5UHHwGYjs1KfCyZjr7tb/uEVaha
+P9qha0dOAHUAlpdkv1VYl633Q4doNwhCd+nwOtX2pPM2bkakPw/KqcYAAAGZy2tW
+rwAABAMARjBEAiAFrtXsdy6HvNn/Pgw1B09SYyem1G08BhT/w0tLTDol/wIgEVa9
+7pWoytIqhqASfx8nC2lxKSD4oPi8E0L+C+pUxScwCgYIKoZIzj0EAwMDaAAwZQIw
+OGypEZjDfCBBMZXDq/el2t0+btVUy1IJgrGgHHl514OBOTZ/yT6j54PlrsjjWcl/
+AjEApTeQeK94PbRtVpCl7W4BUVOHdj/+53RBvmAo2wEo63TYAqxTjpv0f0TKAuOE
+3MUH
+-----END CERTIFICATE-----
+ 1 s:/C=US/O=Let's Encrypt/CN=E7
+   i:/C=US/O=Internet Security Research Group/CN=ISRG Root X1
+-----BEGIN CERTIFICATE-----
+MIIEVzCCAj+gAwIBAgIRAKp18eYrjwoiCWbTi7/UuqEwDQYJKoZIhvcNAQELBQAw
+TzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2Vh
+cmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMjQwMzEzMDAwMDAw
+WhcNMjcwMzEyMjM1OTU5WjAyMQswCQYDVQQGEwJVUzEWMBQGA1UEChMNTGV0J3Mg
+RW5jcnlwdDELMAkGA1UEAxMCRTcwdjAQBgcqhkjOPQIBBgUrgQQAIgNiAARB6AST
+CFh/vjcwDMCgQer+VtqEkz7JANurZxLP+U9TCeioL6sp5Z8VRvRbYk4P1INBmbef
+QHJFHCxcSjKmwtvGBWpl/9ra8HW0QDsUaJW2qOJqceJ0ZVFT3hbUHifBM/2jgfgw
+gfUwDgYDVR0PAQH/BAQDAgGGMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcD
+ATASBgNVHRMBAf8ECDAGAQH/AgEAMB0GA1UdDgQWBBSuSJ7chx1EoG/aouVgdAR4
+wpwAgDAfBgNVHSMEGDAWgBR5tFnme7bl5AFzgAiIyBpY9umbbjAyBggrBgEFBQcB
+AQQmMCQwIgYIKwYBBQUHMAKGFmh0dHA6Ly94MS5pLmxlbmNyLm9yZy8wEwYDVR0g
+BAwwCjAIBgZngQwBAgEwJwYDVR0fBCAwHjAcoBqgGIYWaHR0cDovL3gxLmMubGVu
+Y3Iub3JnLzANBgkqhkiG9w0BAQsFAAOCAgEAjx66fDdLk5ywFn3CzA1w1qfylHUD
+aEf0QZpXcJseddJGSfbUUOvbNR9N/QQ16K1lXl4VFyhmGXDT5Kdfcr0RvIIVrNxF
+h4lqHtRRCP6RBRstqbZ2zURgqakn/Xip0iaQL0IdfHBZr396FgknniRYFckKORPG
+yM3QKnd66gtMst8I5nkRQlAg/Jb+Gc3egIvuGKWboE1G89NTsN9LTDD3PLj0dUMr
+OIuqVjLB8pEC6yk9enrlrqjXQgkLEYhXzq7dLafv5Vkig6Gl0nuuqjqfp0Q1bi1o
+yVNAlXe6aUXw92CcghC9bNsKEO1+M52YY5+ofIXlS/SEQbvVYYBLZ5yeiglV6t3S
+M6H+vTG0aP9YHzLn/KVOHzGQfXDP7qM5tkf+7diZe7o2fw6O7IvN6fsQXEQQj8TJ
+UXJxv2/uJhcuy/tSDgXwHM8Uk34WNbRT7zGTGkQRX0gsbjAea/jYAoWv0ZvQRwpq
+Pe79D/i7Cep8qWnA+7AE/3B3S/3dEEYmc0lpe1366A/6GEgk3ktr9PEoQrLChs6I
+tu3wnNLB2euC8IKGLQFpGtOO/2/hiAKjyajaBP25w1jF0Wl8Bbqne3uZ2q1GyPFJ
+YRmT7/OXpmOH/FVLtwS+8ng1cAmpCujPwteJZNcDG0sF2n/sc0+SQf49fdyUK0ty
++VUwFj9tmWxyR/M=
+-----END CERTIFICATE-----
+---
+Server certificate
+subject=/CN=*.wikipedia.org
+issuer=/C=US/O=Let's Encrypt/CN=E7
+---
+No client certificate CA names sent
+Server Temp Key: ECDH, X25519, 253 bits
+---
+SSL handshake has read 3114 bytes and written 277 bytes
+---
+New, TLSv1/SSLv3, Cipher is AEAD-CHACHA20-POLY1305-SHA256
+Server public key is 256 bit
+Secure Renegotiation IS NOT supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+SSL-Session:
+    Protocol  : TLSv1.3
+    Cipher    : AEAD-CHACHA20-POLY1305-SHA256
+    Session-ID: 
+    Session-ID-ctx: 
+    Master-Key: 
+    Start Time: 1762278006
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+---
+HTTP/1.1 400 Bad request
+Content-length: 90
+Cache-Control: no-cache
+Connection: close
+Content-Type: text/html
+
+<html><body><h1>400 Bad request</h1>
+Your browser sent an invalid request.
+</body></html>
+read R BLOCK
+read R BLOCK
+closed
